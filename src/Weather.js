@@ -161,7 +161,7 @@ export default function Weather() {
       <div className="card-footer text-muted">
         Coded by Laura Herbert and
         <a
-          href="https://github.com/lauher/Weather-App-for-SheCodes-Plus"
+          href="https://github.com/lauher/react-weather-app"
           target="_blank"
           rel="noreferrer"
           className="github-link"
