@@ -1,15 +1,15 @@
-.Weather {
+.Weather .card-body {
   padding: 5px;
 }
-input,
-button.btn-search,
-button.btn-location {
+.Weather input,
+.Weather button.btn-search,
+.Weather button.btn-location {
   margin: 0 5px 0 0;
 }
-h1 {
+.Weather h1 {
   display: inline;
 }
-h2 {
+.Weather h2 {
   color: var(--color-c);
   font-size: 18px;
   font-weight: 500;
@@ -30,91 +30,103 @@ hr {
   margin: 11px;
 }
 
-#city-input {
+.Weather .card-today,
+.Weather .card-forecast {
+  border-color: var(--color-a);
+  margin: 5px 0;
+  width: 100%;
+}
+
+.Weather .city-input {
   border-color: var(--color-a);
 }
-#city-input:focus {
+.Weather .city-input:focus {
   border-color: var(--color-a);
   box-shadow: 0 0 0 0.2rem rgb(255 222 125 / 25%);
 }
-.btn-search {
+.Weather .btn-search {
   border-color: var(--color-c);
   color: var(--color-c);
 }
-.btn-search:hover {
+.Weather .btn-search:hover {
   background: var(--color-c);
   border-color: var(--color-c);
   transition: all 500ms ease;
 }
-.btn-search:active {
+.Weather .btn-search:active {
   border-color: var(--color-c);
   background: var(--color-c);
 }
-.btn-search:focus {
+.Weather .btn-search:focus {
   box-shadow: 0 0 0 0.2rem rgb(246 65 108 / 25%);
 }
-.btn-location {
+.Weather .btn-location {
   border-color: var(--color-b);
   color: var(--color-b);
 }
-.btn-location:hover {
+.Weather .btn-location:hover {
   background: var(--color-b);
   border-color: var(--color-b);
   transition: all 500ms ease;
 }
-.btn-location:active {
+.Weather .btn-location:active {
   border-color: var(--color-b);
   background: var(--color-b);
 }
-.btn-location:focus {
+.Weather .btn-location:focus {
   box-shadow: 0 0 0 0.2rem rgb(0 184 169 / 25%);
 }
-.btn-labels {
+.Weather .btn-labels {
   border-color: var(--color-d);
   color: var(--color-d);
 }
-.btn-labels.active,
-.btn-labels:hover {
+.Weather .btn-labels.active,
+.Weather .btn-labels:hover {
   background-color: var(--color-d);
   border-color: var(--color-d);
   color: white;
 }
-.btn-unit-inputs:active + .btn-labels {
+.Weather .btn-unit-inputs:active + .btn-labels {
   color: white;
   background-color: var(--color-b);
   border-color: var(--color-b);
 }
-.btn-unit-inputs:focus + .btn-labels,
-.btn-labels:focus {
+.Weather .btn-unit-inputs:focus + .btn-labels,
+.Weather .btn-labels:focus {
   box-shadow: 0 0 0 0.2rem rgb(26 83 92 / 25%);
 }
-#country {
+.Weather .country {
   font-size: small;
   font-style: italic;
 }
-.row {
+.Weather .row {
   --bs-gutter-x: 5px;
 }
-.card-today h2 strong {
+.Weather .card-today h2 strong {
   font-size: 65px;
   line-height: 0.9;
 }
-.icon-now {
+.Weather .icon-now {
   color: var(--color-d);
   font-size: 80px;
 }
-.big-icon {
+.Weather .big-icon {
   color: var(--color-d);
   font-size: 45px;
 }
-.small-icon,
-.temperatures-max {
+.Weather .small-icon,
+.Weather .temperatures-max {
   color: var(--color-d);
   font-weight: 600;
 }
-#disclaimer {
-  color: var(--color-c);
-  font-size: smaller;
-  font-weight: 600;
-  margin: -5px 0px 5px 0px;
+
+.Weather .card-footer {
+  background-color: #f8f3d4;
+  border-top: 1px solid var(--color-a);
+  display: block;
+  font-size: small;
+}
+.Weather .footer-link,
+.Weather .footer-link:visited {
+  color: var(--color-d);
 }
