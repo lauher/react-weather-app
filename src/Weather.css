@@ -118,14 +118,3 @@ hr {
   font-weight: 600;
   margin: -5px 0px 5px 0px;
 }
-.card-footer {
-  background-color: #f8f3d4;
-  border-top: 1px solid var(--color-a);
-  display: block;
-  font-size: small;
-  text-align: center;
-}
-.github-link,
-.github-link:visited {
-  color: var(--color-d);
-}

@@ -157,17 +157,6 @@ export default function Weather() {
       <span
       // id="disclaimer"
       ></span>
-      <div className="card-footer text-muted">
-        Coded by Laura Herbert and
-        <a
-          href="https://github.com/lauher/react-weather-app"
-          target="_blank"
-          rel="noreferrer"
-          className="github-link"
-        >
-          open-sourced on GitHub
-        </a>
-      </div>
     </div>
   );
 }
