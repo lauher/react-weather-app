@@ -15,18 +15,18 @@
   font-weight: 500;
   margin: 0;
 }
-p {
+.Weather p {
   margin: 0px;
 }
-ul {
+.Weather ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-ul:first-letter {
+.Weather ul:first-letter {
   text-transform: capitalize;
 }
-hr {
+.Weather hr {
   margin: 11px;
 }
 
