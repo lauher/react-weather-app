@@ -30,8 +30,7 @@
   margin: 11px;
 }
 
-.Weather .card-today,
-.Weather .card-forecast {
+.Weather .card {
   border-color: var(--color-a);
   margin: 5px 0;
   width: 100%;

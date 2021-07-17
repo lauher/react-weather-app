@@ -41,7 +41,7 @@ export default function Weather() {
               >
                 <i className="fas fa-map-marker-alt"></i>
               </button>
-              <div
+              {/* <div
                 aria-label="unit switch button"
                 className="btn-group"
                 role="group"
@@ -72,7 +72,7 @@ export default function Weather() {
                 >
                   °F
                 </label>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -122,26 +122,26 @@ export default function Weather() {
               </div>
             </div>
           </div>
-          <div className="card-footer text-muted">
-            Coded by{" "}
-            <a
-              href="https://upbeat-austin-079924.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-              className="footer-link"
-            >
-              Laura Herbert
-            </a>{" "}
-            and{" "}
-            <a
-              href="https://github.com/lauher/react-weather-app"
-              target="_blank"
-              rel="noreferrer"
-              className="footer-link"
-            >
-              open-sourced on GitHub
-            </a>
-          </div>
+        </div>
+        <div className="card-footer text-muted">
+          Coded by{" "}
+          <a
+            href="https://upbeat-austin-079924.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="footer-link"
+          >
+            Laura Herbert
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://github.com/lauher/react-weather-app"
+            target="_blank"
+            rel="noreferrer"
+            className="footer-link"
+          >
+            open-sourced on GitHub
+          </a>
         </div>
       </div>
     </div>
