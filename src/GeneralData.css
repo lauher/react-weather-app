@@ -1,0 +1,8 @@
+.GeneralData h1 {
+  display: inline;
+}
+
+.GeneralData .country {
+  font-size: small;
+  font-style: italic;
+}
