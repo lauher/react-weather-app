@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import GeneralData from "./GeneralData";
 import WeatherInfo from "./WeatherInfo";
 import axios from "axios";
@@ -15,7 +14,7 @@ export default function Weather(props) {
       city: response.data.name,
       country: response.data.sys.country,
       date: new Date(response.data.dt * 1000),
-      iconUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
+      icon: response.data.weather[0].icon,
       description: response.data.weather[0].description,
       wind: Math.round(3.6 * response.data.wind.speed),
       humidity: response.data.main.humidity,
@@ -102,7 +101,6 @@ export default function Weather(props) {
               </div>
             </div>
             <GeneralData data={weatherData} />
-
             <WeatherInfo data={weatherData} />
           </div>
           <div className="card-footer text-muted">

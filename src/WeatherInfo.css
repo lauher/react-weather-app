@@ -26,11 +26,8 @@
   font-size: 65px;
   line-height: 0.9;
 }
-.WeatherInfo .icon-now {
-  color: var(--color-d);
-  font-size: 80px;
-}
-.WeatherInfo .big-icon {
+
+/* .WeatherInfo .big-icon {
   color: var(--color-d);
   font-size: 45px;
 }
@@ -38,4 +35,4 @@
 .WeatherInfo .temperatures-max {
   color: var(--color-d);
   font-weight: 600;
-}
+} */
