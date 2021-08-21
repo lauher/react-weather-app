@@ -51,25 +51,6 @@
 .Weather .btn-location:focus {
   box-shadow: 0 0 0 0.2rem rgb(0 184 169 / 25%);
 }
-.Weather .btn-labels {
-  border-color: var(--color-d);
-  color: var(--color-d);
-}
-.Weather .btn-labels.active,
-.Weather .btn-labels:hover {
-  background-color: var(--color-d);
-  border-color: var(--color-d);
-  color: white;
-}
-.Weather .btn-unit-inputs:active + .btn-labels {
-  color: white;
-  background-color: var(--color-b);
-  border-color: var(--color-b);
-}
-.Weather .btn-unit-inputs:focus + .btn-labels,
-.Weather .btn-labels:focus {
-  box-shadow: 0 0 0 0.2rem rgb(26 83 92 / 25%);
-}
 
 .Weather .card-footer {
   background-color: #f8f3d4;

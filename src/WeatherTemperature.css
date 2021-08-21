@@ -1,0 +1,15 @@
+.WeatherTemperature .inactive-unit {
+  float: right;
+  border-color: var(--color-d);
+  color: var(--color-d);
+}
+.WeatherTemperature .inactive-unit:active,
+.WeatherTemperature .inactive-unit:hover {
+  background-color: var(--color-d);
+  border-color: var(--color-d);
+  color: white;
+}
+
+.WeatherTemperature .inactive-unit:active:focus {
+  box-shadow: 0 0 0 0.2rem rgb(26 83 92 / 25%);
+}

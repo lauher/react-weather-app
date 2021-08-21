@@ -66,38 +66,6 @@ export default function Weather(props) {
                 >
                   <i className="fas fa-map-marker-alt"></i>
                 </button>
-                {/* <div
-                aria-label="unit switch button"
-                className="btn-group"
-                role="group"
-              >
-                <input
-                  autoComplete="off"
-                  className="btn-check btn-unit-inputs"
-                  // id="btn-unit-C"
-                  type="radio"
-                />
-                <label
-                  className="btn btn-outline-primary btn-labels active"
-                  for="btn-unit-C"
-                  // id="label-cels"
-                >
-                  °C
-                </label>
-                <input
-                  autoComplete="off"
-                  className="btn-check btn-unit-inputs"
-                  // id="btn-unit-F"
-                  type="radio"
-                />
-                <label
-                  className="btn btn-outline-primary btn-labels"
-                  for="btn-unit-F"
-                  // id="label-fahr"
-                >
-                  °F
-                </label>
-              </div> */}
               </div>
             </div>
             <GeneralData data={weatherData} />
