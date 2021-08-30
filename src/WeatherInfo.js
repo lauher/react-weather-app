@@ -1,6 +1,7 @@
 import React from "react";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
+import WeatherForecast from "./WeatherForecast";
 import "./WeatherInfo.css";
 
 export default function WeatherInfo(props) {
@@ -32,6 +33,7 @@ export default function WeatherInfo(props) {
               <hr />
               <div>
                 <h2>Forecast upcoming hours</h2>
+                <WeatherForecast />
               </div>
             </div>
           </div>
