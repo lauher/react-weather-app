@@ -1,7 +1,8 @@
 import React from "react";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
-import WeatherForecast from "./WeatherForecast";
+import WeatherHours from "./WeatherHours";
+import WeatherDays from "./WeatherDays";
 import "./WeatherInfo.css";
 
 export default function WeatherInfo(props) {
@@ -12,8 +13,6 @@ export default function WeatherInfo(props) {
           <div className="card card-today">
             <div>
               <h2>
-                Now
-                <br />
                 <strong>
                   <WeatherTemperature celsius={props.data.temperature} />
                 </strong>
@@ -32,14 +31,14 @@ export default function WeatherInfo(props) {
               </ul>
               <hr />
               <div>
-                <h2>Forecast upcoming hours</h2>
+                <WeatherHours coordinates={props.data.coordinates} />
               </div>
             </div>
           </div>
         </div>
         <div className="col-sm-3">
           <div className="card-forecast">
-            <WeatherForecast coordinates={props.data.coordinates} />
+            <WeatherDays coordinates={props.data.coordinates} />
           </div>
         </div>
       </div>

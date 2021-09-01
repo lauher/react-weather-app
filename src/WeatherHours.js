@@ -1,25 +1,25 @@
 import React, { useState } from "react";
-import WeatherForecastDays from "./WeatherForecastDays";
+import WeatherForecastHours from "./WeatherForecastHours";
 import axios from "axios";
 
-export default function WeatherForecast(props) {
+export default function WeatherHours(props) {
   let [loaded, setLoaded] = useState(false);
   let [forecast, setForecast] = useState(null);
 
   function handleResponse(response) {
-    setForecast(response.data.daily);
+    setForecast(response.data.hourly);
     setLoaded(true);
   }
 
   if (loaded) {
     return (
-      <div className="WeatherForecast">
-        <div className="col">
+      <div className="WeatherHours">
+        <div className="row">
           {forecast.map(function (dailyForecast, index) {
-            if (index < 3) {
+            if (index === 3 || index === 6 || index === 9) {
               return (
                 <div className="col" key={index}>
-                  <WeatherForecastDays data={dailyForecast} />
+                  <WeatherForecastHours data={dailyForecast} />
                 </div>
               );
             } else {
