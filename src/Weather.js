@@ -77,7 +77,7 @@ export default function Weather(props) {
             <a
               href="https://upbeat-austin-079924.netlify.app/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="footer-link"
             >
               Laura Herbert
@@ -86,7 +86,7 @@ export default function Weather(props) {
             <a
               href="https://github.com/lauher/react-weather-app"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="footer-link"
             >
               open-sourced on GitHub
