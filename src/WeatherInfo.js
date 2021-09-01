@@ -9,7 +9,7 @@ export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
       <div className="row">
-        <div className="col-sm-9 d-flex align-items-stretch">
+        <div className="col-sm-9 d-flex align-items-stretch align-middle">
           <div className="card card-today">
             <div>
               <h2>
@@ -18,7 +18,7 @@ export default function WeatherInfo(props) {
                 </strong>
               </h2>
 
-              <WeatherIcon code={props.data.icon} size={80} color="#1a535c" />
+              <WeatherIcon code={props.data.icon} size={100} color="#1a535c" />
 
               <ul>
                 <li>{props.data.description}</li>
