@@ -1,8 +1,0 @@
-.WeatherForecast .WeatherForecast-temperature-max {
-  color: var(--color-d);
-  font-weight: 600;
-}
-
-.WeatherForecast .WeatherForecast-temperature-min {
-  margin-left: 5px;
-}

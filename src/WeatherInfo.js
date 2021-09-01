@@ -8,7 +8,7 @@ export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
       <div className="row">
-        <div className="col-sm-8 d-flex align-items-stretch">
+        <div className="col-sm-9 d-flex align-items-stretch">
           <div className="card card-today">
             <div>
               <h2>
@@ -33,14 +33,13 @@ export default function WeatherInfo(props) {
               <hr />
               <div>
                 <h2>Forecast upcoming hours</h2>
-                <WeatherForecast coordinates={props.data.coordinates} />
               </div>
             </div>
           </div>
         </div>
-        <div className="col-sm-4">
-          <div className="card card-forecast">
-            <h2>Forecast upcoming days</h2>
+        <div className="col-sm-3">
+          <div className="card-forecast">
+            <WeatherForecast coordinates={props.data.coordinates} />
           </div>
         </div>
       </div>
