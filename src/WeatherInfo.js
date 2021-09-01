@@ -33,7 +33,7 @@ export default function WeatherInfo(props) {
               <hr />
               <div>
                 <h2>Forecast upcoming hours</h2>
-                <WeatherForecast />
+                <WeatherForecast coordinates={props.data.coordinates} />
               </div>
             </div>
           </div>
