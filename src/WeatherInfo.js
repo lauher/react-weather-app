@@ -1,6 +1,5 @@
 import React from "react";
 import WeatherIcon from "./WeatherIcon";
-import WeatherTemperature from "./WeatherTemperature";
 import WeatherHours from "./WeatherHours";
 import WeatherDays from "./WeatherDays";
 import "./WeatherInfo.css";
@@ -9,13 +8,11 @@ export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
       <div className="row">
-        <div className="col-sm-9 d-flex align-items-stretch align-middle">
+        <div className="col-sm-9 d-flex align-items-stretch">
           <div className="card card-today">
             <div>
               <h2>
-                <strong>
-                  <WeatherTemperature celsius={props.data.temperature} />
-                </strong>
+                <strong>{Math.round(props.data.temperature)}°C</strong>
               </h2>
 
               <WeatherIcon code={props.data.icon} size={100} color="#1a535c" />
