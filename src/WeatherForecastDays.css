@@ -1,3 +1,7 @@
+.WeatherForecastDays .description:first-letter {
+  text-transform: capitalize;
+}
+
 .WeatherForecastDays .temperature-max {
   color: var(--color-d);
   font-weight: 600;

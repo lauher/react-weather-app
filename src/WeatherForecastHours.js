@@ -25,9 +25,8 @@ export default function WeatherForecastDays(props) {
         size={50}
         color="#1a535c"
       />
-      <div>
-        <span className="temperature">{Temperature()}</span>
-      </div>
+      <div className="description">{props.data.weather[0].description}</div>
+      <div className="temperature">{Temperature()}</div>
     </div>
   );
 }
