@@ -29,7 +29,7 @@
   color: var(--color-c);
 }
 .Weather .btn-search:hover {
-  background: var(--color-c);
+  background: rgb(246, 65, 107, 0.15);
   border-color: var(--color-c);
   transition: all 500ms ease;
 }
@@ -45,7 +45,7 @@
   color: var(--color-b);
 }
 .Weather .btn-location:hover {
-  background: var(--color-b);
+  background: rgba(66, 139, 133, 0.15);
   border-color: var(--color-b);
   transition: all 500ms ease;
 }
