@@ -58,14 +58,22 @@ export default function Weather(props) {
                     type="submit"
                     className="btn btn-outline-success btn-search"
                   >
-                    <i className="fas fa-search-location"></i>
+                    <img
+                      className="location-icons"
+                      src="images/search-location.png"
+                      alt="Search Icon"
+                    />
                   </button>
                 </form>
                 <button
                   type="submit"
                   className="btn btn-outline-success btn-location"
                 >
-                  <i className="fas fa-map-marker-alt"></i>
+                  <img
+                    className="location-icons"
+                    src="images/location.png"
+                    alt="Location Icon"
+                  />
                 </button>
               </div>
             </div>

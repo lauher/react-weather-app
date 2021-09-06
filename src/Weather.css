@@ -19,6 +19,11 @@
   border-color: var(--color-a);
   box-shadow: 0 0 0 0.2rem rgb(255 222 125 / 25%);
 }
+
+.Weather .location-icons {
+  height: 25px;
+}
+
 .Weather .btn-search {
   border-color: var(--color-c);
   color: var(--color-c);
