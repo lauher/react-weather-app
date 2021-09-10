@@ -27,12 +27,6 @@
   line-height: 0.9;
 }
 
-/* .WeatherInfo .big-icon {
-  color: var(--color-d);
-  font-size: 45px;
+.WeatherInfo .weather-icons {
+  height: 16px;
 }
-.WeatherInfo .small-icon,
-.WeatherInfo .temperatures-max {
-  color: var(--color-d);
-  font-weight: 600;
-} */

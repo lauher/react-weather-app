@@ -20,10 +20,20 @@ export default function WeatherInfo(props) {
               <ul>
                 <li>{props.data.description}</li>
                 <li>
-                  <span>{props.data.wind}km/h</span>
+                  <img
+                    className="weather-icons"
+                    src="images/windspeed.png"
+                    alt="Windspeed Icon"
+                  />
+                  <span> {props.data.wind}km/h</span>
                 </li>
                 <li>
-                  <span>{props.data.humidity}%</span>
+                  <img
+                    className="weather-icons"
+                    src="images/humidity.png"
+                    alt="Humidity Icon"
+                  />
+                  <span> {props.data.humidity}%</span>
                 </li>
               </ul>
               <hr />
